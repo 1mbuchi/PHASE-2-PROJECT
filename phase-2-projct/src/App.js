@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title"><i>Recipe</i></h1>
+      <h1 className="title"><i>YUMMY RECIPE!!!</i></h1>
       {loading ? (
         <p>Loading...</p>
         ) : error ? (
