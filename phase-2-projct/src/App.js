@@ -59,3 +59,22 @@ function App() {
     </div>
   );
 }
+const Appfood = () => {
+  return (
+    <Router>
+      <div>
+        <Navbar />
+      
+          <Routes>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </Routes>
+        </div>
+    
+    </Router>
+  );
+};
+
+export default App;
+
