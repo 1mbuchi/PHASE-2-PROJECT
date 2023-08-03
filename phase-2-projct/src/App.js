@@ -11,4 +11,9 @@ import Contact from './components/Contact';
 
 const API_URL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
+function App() 
+  const [meals, setMeals] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
+  
